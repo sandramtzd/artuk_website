@@ -1,5 +1,8 @@
 /*Top*/
-
+body{
+    font-family: 'Montserrat', sans-serif;
+    
+}
 header{
     background-image: url("./assets/banner.jpg");
     background-size: cover;
@@ -26,7 +29,7 @@ header{
 }
 
 .header-top img{
-    width: 100px;
+    width: 200px;
 }
 
 #main-nav a{
@@ -44,30 +47,58 @@ header{
 
 /*Middle*/
 
-.links-section{
-    color: peachpuff;
-    grid-template-columns: 1fr 1fr 1fr; 
-    display: flex;
+.search{
     
-  
+    background-color: lightgrey;
+    border: 15px green;
+    padding: 10px;
+
+
+}
+
+#search-bar{
+    width: 100%;
+    
+}
+
+.post-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-gap: 40px;
+    text-decoration: none;
+}
+
+.post-section a:hover{
+    background-color: lightgray;
 
 }
 
 .post{
-
-    
-
-    
-    /*fr= fraction*/
-    grid-gap: 20px;
+    display:block;
+    text-decoration: none;
 }
 
-#post_image{
-    width: 300px;
+.post img{
+    width: 100%;
+
+
 }
 
 
+.post-label{
+    background-color: #393D3F;
+    color:white;
+    padding: 4px 8px;
+    float: left;
 
+}
+
+.post_summary{
+    padding: 10px;
+    float: bottom;
+    text-decoration: none;
+    
+}
 
 
 /*Bottom*/
